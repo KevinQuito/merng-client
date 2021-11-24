@@ -8,7 +8,7 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:5000'
+    uri: 'https://desolate-retreat-98617.herokuapp.com/'
 })
 
 // setContext takes in a request and a previous context that we can data from and edit and forward to the next opration, but since we don't need any of those parameters
