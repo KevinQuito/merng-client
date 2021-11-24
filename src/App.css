@@ -1,0 +1,19 @@
+/* Deleted everything in this App.css file since we're going to be using SemanticUI */
+/* page-title is just to center the Recent Post for Home.js */
+.page-title{
+    display:block !important;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.form-container{
+    width: 400px;
+    /* we'll say margin: auto so that it's pushed to the middle */
+    margin: auto;
+}
+
+.ui.olive.button:focus, .ui.olive.buttons .button:focus{
+    /* this just makes it so that when the button is focused, the color doesn't stay dark olive, it stays as bright olive instead */
+    background-color: rgb(181, 204, 24)
+}
